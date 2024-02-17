@@ -1,7 +1,5 @@
 :root{
-  --azure: #E5FCFF;
-  --azure2: ##DFEEF0;
-  --violet: #49475B;
+  --azure: ##DFEEF0;
 }
 
 body {
@@ -26,7 +24,6 @@ body {
   width: 100vw;
   height: calc(100vh - 203px);
   z-index: 80;
-  background: var(--azure);
 }
 
 #contents {
@@ -54,7 +51,6 @@ body {
   position: absolute;
   left: 0;
   top: 203px;
-  background-color: var(--uranian);
   width: 100vw;
   z-index: 100;
   margin: 0;
@@ -108,6 +104,7 @@ body {
   font-size: 1.2em;
   padding: 0 5px;
   font-family: "Archivo Black", sans-serif;
+  color: var(--azure);
 }
 
 .source {
@@ -178,7 +175,7 @@ h1 {
   margin: 0;
   font-size: 1.5em;
   font-family: "Archivo Black", sans-serif;
-  color: var(--violet);
+  color: var(--azure);
 }
 
 h2 {
