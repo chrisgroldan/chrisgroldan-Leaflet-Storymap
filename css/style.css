@@ -1,6 +1,6 @@
 :root{
   --azure: #E5FCFF;
-  --uranian: #ABDAFC;
+  --violet: #49475B;
 }
 
 body {
@@ -175,7 +175,7 @@ h1 {
   margin: 0;
   font-size: 1.5em;
   font-family: "Archivo Black", sans-serif;
-  color: var(--uranian);
+  color: var(--violet);
 }
 
 h2 {
