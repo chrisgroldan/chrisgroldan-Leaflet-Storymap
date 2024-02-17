@@ -1,5 +1,6 @@
 :root{
   --azure: #E5FCFF;
+  --azure2: ##DFEEF0;
   --violet: #49475B;
 }
 
@@ -127,10 +128,12 @@ a.source:visited {
 
 .in-focus {
   opacity: 1.0;
+  background: var(--azure);
 }
 
 .out-focus {
   opacity: 0.3;
+  background: var(--azure2);
 }
 
 .leaflet-control-attribution {
